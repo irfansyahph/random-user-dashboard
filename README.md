@@ -1,36 +1,32 @@
-# random-user-dashboard
+# Requirements
+Node.js:
+- 18.18.0 or newer (within the 18.x version range)
+- 19.8.0 or newer (within the 19.x version range)
+- Any version 20.0.0 or higher
 
-This template should help get you started developing with Vue 3 in Vite.
+# Installation
+## Clone the repository
+```
+git clone git@github.com:irfansyahph/random-user-dashboard.git
+```
 
-## Recommended IDE Setup
+## Navigate into the project directory
+```
+cd random-user-dashboard
+```
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## Install dependencies
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Environment Variables
+Create a `.env` file in the root of your project and define your environment variables there:
+```
+VITE_RANDOM_USER_BASE_URL="https://randomuser.me/api"
+```
 
-```sh
+# Running the Development Server
+```
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-# random-user-dashboard
